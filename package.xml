@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>trajectory_plotting</name>
+    <version>1.0.0</version>
+    <description>Visualization for planned state-trajectory and control signal</description>
+    <maintainer email="team-spatzenhirn@uni-ulm.de">Team Spatzenhirn</maintainer>
+    <license>MIT</license>
+
+    <exec_depend>rclpy</exec_depend>
+    <exec_depend>spatz_interfaces</exec_depend>
+
+    <export>
+        <build_type>ament_python</build_type>
+    </export>
+</package>
